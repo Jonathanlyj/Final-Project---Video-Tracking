@@ -1,6 +1,6 @@
 Mask RCNN and Optical Flow
 
-1. set up virtual environment using `python3 -m virtualenv venv` and activate the venv using `source venv/bin/activate` (`deactivate` to exit venv)
+1. set up virtual environment using `virtualenv venv --python=python3.6` and activate the venv using `source venv/bin/activate` (`deactivate` to exit venv)
 2. `pip install -r requirements.txt`
 3. `python3 setup.py install`
 4. Add test images to `my_images` folder under `images` folder
