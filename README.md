@@ -4,5 +4,6 @@ Mask RCNN and Optical Flow
 2. `pip install -r requirements.txt`
 3. `python3 setup.py install`
 4. Add test images to `my_images` folder under `images` folder
-5. Run `Object_Detection.py` in `samples` directory
+5. Place `mask_rcnn_coco.h5` (pretrained weights) to the root of the project
+6. Run `Object_Detection.py` in `samples` directory
 
